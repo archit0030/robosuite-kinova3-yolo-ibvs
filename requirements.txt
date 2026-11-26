@@ -1,0 +1,11 @@
+# robosuite 1.5.2 does not work with MuJoCo 4 (joint-type enum comparison fails),
+# so MuJoCo is pinned. Use Python 3.11.
+robosuite==1.5.2
+mujoco==3.3.0
+numpy==1.26.4
+opencv-python==4.11.0.86
+ultralytics==8.4.217
+torch==2.15.0
+torchvision==0.29.2
+imageio==2.38.2
+imageio-ffmpeg==0.8.1
